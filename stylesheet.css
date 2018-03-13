@@ -1,0 +1,230 @@
+body {
+  background-image: url("car2.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+#clientform {
+  border: 1px solid red;
+  background-color: #ffffff;
+  border-radius: 2em;
+  margin: 5%;
+  color: red;
+  font-family: Arial;
+  opacity: 0.8;
+  clear: both;
+}
+#clientform div{
+  background-color: red;
+  color: white;
+  font-size: 40px;
+  padding: 5%;
+  border-top-left-radius: 2em;
+  border-bottom-right-radius: 2em;
+}
+#clientform input {
+  border: 0px;
+  border-bottom: 1px solid red;
+  margin: 2%;
+  font-size: 20px;
+}
+#clientform input[type=submit] {
+  background-color: red;
+  color: white;
+  border-radius: 8px;
+  border: 1px solid red;
+  font-size: 30px;
+}
+#clientform input[type=submit]:hover{
+  background-color: white;
+  color: red;
+  border: 1px solid red;
+  cursor: pointer;
+}
+#Alogin {
+  border: 1px solid red;
+  border-radius: 2em;
+  background-color: red;
+  color: white;
+  opacity: 0.8;
+  display: inline-block;
+  padding: 1%;
+  font-family: Arial;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+#Alogin:hover {
+  background-color: white;
+  border: 1px solid red;
+  color: red;
+}
+.dropdown {
+  position:relative;
+  display: inline;
+}
+.dropdown-content {
+  display: none;
+  position: relative;
+  color: white;
+  opacity: 0.8;
+  padding-top: 1%;
+}
+.dropdown-content input {
+  display: inline;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    padding-bottom: 2%;
+    position: relative;
+    top: -1em;
+}
+
+select {
+  font-size: 30px;
+  color: red;
+  border-radius: 2em;
+  border-color: red;
+  text-align: center;
+  padding: 1%;
+  margin-left: 10%;
+  display: inline-block;
+  transition: all 0.5s ease;
+}
+
+select:hover{
+  opacity: 0.8;
+  cursor: pointer;
+  color: white;
+  background-color: red;
+}
+
+select option {
+  opacity: 0.1;
+  border-color: red;
+  cursor: pointer;
+}
+
+table, th, td {
+   border: 1px solid red;
+   background-color: white;
+   opacity: 0.8;
+   padding: 2%;
+   border-radius: 2%;
+   //transition: all 2s ease;
+   margin: 5%;
+}
+
+#footer {
+  text-align: center;
+  font-size: 2em;
+  color: red;
+  background-color: black;
+  margin-top: 2%;
+  padding: 2%;
+  opacity: 0.8;
+  font-family: cursive, Arial;
+  border-top-left-radius: 2em;
+  border-top-right-radius: 2em;
+}
+
+#header {
+  display:inline;
+  padding: 1%;
+  font-size: 1.5em;
+  background-color: red;
+  color: white;
+  opacity: 0.8;
+  text-decoration: none;
+  border-bottom-right-radius: 1.5em;
+  border-bottom-left-radius: 1.5em;
+}
+
+#header a{
+  text-decoration: none;
+  color: white;
+  //border: 1px solid white;
+  //margin: 1%;
+  padding: 2%;
+  transition: all 1s ease;
+}
+
+#header a:hover {
+  color: red;
+  background-color: white;
+  cursor: pointer;
+  border: 1px solid red;
+  border-radius: 3em;
+}
+
+#mheader {
+    width: 40%;
+    height: 60%;
+    margin-bottom: 2%;
+    display: inline-block;
+    padding: 2%;
+    background: black;
+    position: relative;
+    float: right;
+    color: red;
+    opacity: 0.8;
+    font-family: cursive, Arial;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    font-size: 2em;
+    font-family: Arial;
+    transition: all 4s ease;
+    animation: moveright 5s;
+    animation-direction: reverse;
+}
+@keyframes moveright {
+    0%   {background: Black; right: 0px;}
+    50% {background: red; color:white; right:150px;}
+    //90% {background: black; right: 300px;}
+    100% {background: black; right: 300px;}
+}
+
+#search {
+  width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 10em;
+    width: 30%;
+    opacity: 0.9;
+    background-image: url('searchicon.png');
+    background-position: 1px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 20px 7%;
+    //-webkit-transition: width 0.4s ease-in-out;
+    transition: width .5s ease-in-out;
+}
+
+#search:focus {
+  width: 100%;
+}
+
+#mAvail {
+  border: 1px solid red;
+  border-radius: 2em;
+  background-color: red;
+  color: white;
+  opacity: 0.9;
+  display: inline-block;
+  padding: 1%;
+  font-family: Arial;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 1s ease;
+  float: right;
+}
+
+#mAvail:hover {
+  background-color: white;
+  border: 1px solid red;
+  color: red;
+}
